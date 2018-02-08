@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print("testt 2-8 " ) ;
+        myButton.setTitle("HELLO", for: .normal)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
